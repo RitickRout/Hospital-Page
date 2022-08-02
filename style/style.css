@@ -1,0 +1,377 @@
+:root {
+    --primary-color: rgb(35,125,158);
+    --secondary-color: rgb(252,186,18);
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@200&family=Noto+Serif&family=Roboto+Mono:ital,wght@1,100&family=Square+Peg&display=swap');
+
+/* main page css index.html */
+
+ul{
+    padding-inline-start: 0;
+}
+nav{
+    display: flex;
+    background-color:var(--primary-color);
+    justify-content: space-between;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    margin: 0 10em;
+}
+nav ul li{
+    margin: 0 5px;
+    color: white;
+    font-size: smaller;
+    margin-top: 5px;
+}
+body{
+    margin: 0;
+    word-spacing: 3px;
+    font-family: 'Square Peg', cursive;
+}
+.second-layer{
+display: flex;
+margin:0 20px ;
+justify-content: space-around;
+}
+.srch-box{
+    display: flex;
+    width: 17%;
+}
+.srch-box input{
+     width: 80%;
+     height: 50%;
+     margin-top: 18px;
+}
+
+.srch-box div {
+   border: 2px solid red;
+   height: 40%;
+   width: 10%;
+}
+.flex{
+    display: flex;
+}
+.wider-box {
+    border: 2px solid gray;
+    background-color: var(--secondary-color);
+    padding: 1em;
+    text-decoration: none;
+}
+.flex div{
+    margin: 0 12px;
+    margin-top: 11px;
+}
+.navbar{
+    margin: 0 10em;
+    justify-content: space-around;
+}
+
+hr{
+    margin: 0;
+    border-width: 0.5px;
+    border: 0.5px solid rgb(243, 238, 238);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover {
+  color: var(--primary-color);
+}
+
+.bk-ap-box{
+    width: 19%;
+    padding: 4em 2em;
+    position: absolute;
+    top: 23%;
+    left: 65%;
+    background-color: aliceblue;
+}
+.bk-ap-box input{
+    color: aliceblue;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.bk-ap-box h3{
+    color: rgba(0, 0, 0, 0.788);
+}
+.bk-ap-box input:hover{
+    background-color: var(--primary-color);
+}
+
+.Containt-header{
+    margin: 0 13em;
+}
+  
+
+
+.container{
+    background-color:var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.child-element{
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+}
+.child-element div{
+    color: whitesmoke;
+}
+
+
+.imge{
+   float: right; 
+}
+
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2em;
+}
+
+footer div ul li{
+    color: white;
+    font-size: small;
+}
+
+footer div ul {
+    padding-inline-start: 0px;
+    padding: 0 6em;
+}
+footer h3{
+    color: white;
+    font-size: small;
+}
+.footer-bottom{
+    display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap; 
+}
+
+footer td{
+    text-align: center;
+    border: 1px solid rgb(57, 141, 171);;
+    border-spacing: 120px;
+    padding: 12px;
+    color: white;
+    font-size: small;
+}
+.social{
+    display: flex;
+}
+.social li{
+    margin: 0 12px;
+}
+.center{
+    background-color: var(--secondary-color);
+}
+.center i {
+   margin-top: 1em;
+   margin-left:10em;
+   margin-right:1em;
+}
+
+
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color:rgb(229, 234, 241);
+    font-size:2em;
+  }
+.bg-image {
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .formpage-bg{
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(240, 240, 240, 0.735);
+    text-align: center;
+    margin: 8em auto;
+    width: 60%;
+    padding: 10px;
+  }
+.form-bg form{
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-bg form input{
+    width: 20%;
+    text-align: center;
+    padding: 0.6em;
+    border-radius: 12px ;
+    margin: 2em 0;
+}
+
+.form-bg form select{
+    width: 20%;
+    text-align: center;
+    padding: 0.6em;
+    border-radius: 12px ;
+    margin: 2em 0;
+}
+
+
+
+.space-around{
+    justify-content: space-around;  
+}
+.btn:hover{
+    background-color: var(--primary-color);
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.patientcare{
+    width: 71%;
+    margin-left: 12%;
+}
+.patientcare div{
+    margin: 1em 0.5em;
+    width: 20%;
+    height: 142px;
+    text-align: center;
+}
+.patientcare div p{
+    margin-top: 31%;
+    color: white;
+}
+.contact-us{
+    margin-left: 5em;
+}
+.contact-us form{
+    width: 40%;
+    margin: 2em 5em ;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.368);
+    text-align: center;
+}
+.contact-us input{
+ text-align: center;
+ padding:0.8em 1em;
+ border-radius: 25px;
+}
+
+.contact-us select{
+    text-align: center;
+ width: 30%; 
+ padding:0.8em 0;
+ border-radius: 25px;
+}
+.contact-us h3{
+    color: rgb(10, 114, 138);
+}
+.contact-us p{
+    color: rgba(93, 90, 90, 0.698);
+}
+.grid-parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-child{
+    border: 1px solid rgba(78, 72, 72, 0.533);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    font-size:small;
+}
+.centerofexcellence{
+    width: 70%;
+    margin-left: 13%;
+}
+.centerofexcellence div{
+    width: 27%;
+    padding: 1em;
+    background-color:rgb(210, 203, 203);
+}
+.centerofexcellence h5{
+    color: var(--primary-color);
+}
+.centerofexcellence p{
+    color: rgb(63, 49, 49);
+}
+
+.content-heart{
+    margin:0 8em ;
+    width: 80%;
+}
+.content-heart h2{
+    color: var(--primary-color);
+}
+button{
+    padding: 1em 3em;
+    border: none;
+    border-radius: 25px ;
+    margin: 0 6%;
+}
+button:hover{
+    text-decoration: double;
+    color: white;
+    background-color: var(--primary-color);
+}
+.centerofexcellence h5{
+    font-size: large;
+}
+
+.about-us-section{
+   margin-left: 30%; 
+}
+.about-us-section p{
+    width: 90%;
+}
+.about-us{
+    width: 97%;
+}
+.about-us-section h2{
+    margin:3em 0;
+    color: var(--primary-color);
+
+}
+.center-of-exellence-boxs{
+    width:73%;
+    margin-left:14%;
+}
+.center-of-exellence-boxs h2{
+    color:rgb(54, 206, 248);
+}
+.center-of-excellence-bootom-upper div{
+    width:70%;
+    margin-left: 14%;
+    text-align:left;
+}
+.margin-left{
+    margin-left:14%;
+    width: 70%;
+    text-align: left;
+}
+.content-heart ul li{
+    margin:1em 0 ;
+}
+.padding-left-right{
+    padding: 0 2em;
+}
+small{
+    color: var(--primary-color);
+}
+.border{
+    border: 2px solid rgba(211, 193, 193, 0.262);
+    padding: 1em ;
+}
+.padding-top-bottom{
+    padding: 1em 0;
+}
