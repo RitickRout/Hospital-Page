@@ -375,3 +375,14 @@ small{
 .padding-top-bottom{
     padding: 1em 0;
 }
+.border-radius{
+    border-radius: 10%;
+}
+.hospitals-container .grid-child{
+    background-color: rgba(160, 150, 150, 0.137);
+    border: none;
+    border-radius: 15px;
+}
+.color-primary{
+    color: var(--primary-color);
+}

@@ -52,7 +52,6 @@ class MYHeader extends HTMLElement {
       <div> <a href="index.html"><b>Home</b></a></div>
       <div> <a href="patientcare.html"><b>Patient Care</b></a></div>
       <div> <a href="CentresofExcellence.html"><b>Centres of Excellence</b></a>        </div>
-      <div> <a href="HealthInformation.html"><b>Health Information</b> </a>       </div>
       <div> <a href="Academics&Research.html"><b>Academics & Research</b></a>          </div>
       <div> <a href="Hospitals.html"><b>Hospitals</b></a>                 </div>
       <div> <a href="Contackus.html"><b>Contack us </b></a>             </div>
